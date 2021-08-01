@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/science2"
+        android:title="Science"
+        android:icon="@drawable/atom"/>
+    <item
+        android:id="@+id/sports2"
+        android:title="Sports"
+        android:icon="@drawable/football"/>
+    <item
+        android:id="@+id/business2"
+        android:title="Business"
+        android:icon="@drawable/stats"/>
+    <item
+        android:id="@+id/technology2"
+        android:title="Technology"
+        android:icon="@drawable/technology"/>
+    <item
+        android:id="@+id/health2"
+        android:title="Health"
+        android:icon="@drawable/healthcare"/>
+
+
+</menu>

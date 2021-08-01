@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/science2">
+    <fragment
+        android:id="@+id/business2"
+        android:name="com.example.newsapp.Fragment.business"
+        android:label="Business"
+        tools:layout="@layout/fragment_business" />
+    <fragment
+        android:id="@+id/health2"
+        android:name="com.example.newsapp.Fragment.health"
+        android:label="Health"
+        tools:layout="@layout/fragment_health" />
+    <fragment
+        android:id="@+id/profile2"
+        android:name="com.example.newsapp.Fragment.profile"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/science2"
+        android:name="com.example.newsapp.Fragment.science"
+        android:label="Science"
+        tools:layout="@layout/fragment_science" />
+    <fragment
+        android:id="@+id/sports2"
+        android:name="com.example.newsapp.Fragment.sports"
+        android:label="Sports"
+        tools:layout="@layout/fragment_sports" />
+    <fragment
+        android:id="@+id/technology2"
+        android:name="com.example.newsapp.Fragment.technology"
+        android:label="Technology"
+        tools:layout="@layout/fragment_technology" />
+</navigation>
